@@ -1,7 +1,7 @@
 # Prerequisites
 *.d
 
-# Compiled Object files
+# Compiled Object Files
 *.slo
 *.lo
 *.o
@@ -12,12 +12,18 @@
 *.out
 *.app
 
-# Custom files
+# Custom Files
 **/.notes
+
+# OS Specific Files
+**/.DS_Store
 
 ######################################################
 # Ignore directories
 **/.tmp/
 **/.vscode/
+**/.build/
+**/build/
+
 # Debug Symbols
 **.dsYM/
